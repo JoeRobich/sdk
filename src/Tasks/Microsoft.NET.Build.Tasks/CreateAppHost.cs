@@ -18,7 +18,7 @@ namespace Microsoft.NET.Build.Tasks
     {
         /// <summary>
         /// The number of additional retries to attempt for creating the apphost.
-        /// <summary>
+        /// </summary>
         /// <remarks>
         /// The default is no retries because internally the `HostWriter` attempts to retry
         /// on different I/O operations. Users can optionally retry at the task level if desired.
