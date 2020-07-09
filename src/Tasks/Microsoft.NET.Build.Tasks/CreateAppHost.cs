@@ -25,6 +25,7 @@ namespace Microsoft.NET.Build.Tasks
         /// </remarks>
         public const int DefaultRetries = 0;
 
+        /// <summary>
         /// The default delay, in milliseconds, for each retry attempt for creating the apphost.
         /// </summary>
         public const int DefaultRetryDelayMilliseconds = 1000;
